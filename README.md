@@ -24,8 +24,38 @@ The analysis focuses on identifying what drives revenue over time, how customer 
   - Price: Price of the food item in local currency (2.06 – 24.99).
   - Payment Method: Payment method used (Cash, Debit Card, Credit Card, Online Payment).
   - Order Time: Timestamp when the order was placed.
-
-
+- Data Source: [Kaggle](https://www.kaggle.com/datasets/haseebindata/restaurant-orders)
 
 ## Tools Used
-## Key Insights
+- Microsoft Excel 2019
+- PivotTables
+- PivotCharts
+- Slicers
+- Calculated fields
+
+## Key KPIs / Metrics
+To summarize restaurant performance and support the analysis, the following key metrics were calculated
+### 1. Total Revenue
+- The total amount generated from all completed orders within the dataset period.
+- Calculation:
+   - Total Revenue = Price × Quantity (aggregated across all orders)
+
+### 2. Total Orders
+- The total number of unique orders placed.
+- Calculation:
+  - Total Orders = Count of unique Order IDs
+ 
+### 3. Average Order Value (AOV)
+- The average amount spent per order.
+- Calculation:
+  - Average Order Value = Total Revenue ÷ Total Orders
+
+ ### 4. Returning Customer Rate
+ - Measures how many customers placed more than one order.
+ - Calculation:
+   - Returning Customer Rate = (Number of repeat customers ÷ Total customers) × 100
+   - Insight: The rate is very low, indicating that most customers are one-time buyers.
+
+### 5. Top Product Category by Revenue
+- Identifies the meal category that contributes the highest share of total revenue using pivot tables
+- Result: Main Dish category generates the highest revenue.
