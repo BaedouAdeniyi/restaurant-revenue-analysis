@@ -8,12 +8,6 @@ This project analyzes restaurant sales data to understand revenue performance, c
 
 The analysis focuses on identifying what drives revenue over time, how customer activity varies by time of day, and how the product mix changes across different periods. Insights from the project highlight the relationship between order volume and revenue, differences in spending behavior by time of day, and the low rate of returning customers. The final output is a visually structured Excel dashboard designed to support data-driven business decisions.
 
-## Business Questions
-- How does revenue vary over time (monthly)?
-- Which meal category generates the most revenue?
-- Which time of day generates the highest revenue and order volume?
-- Are there returning customers and what is their impact on revenue?
-
 ## Dataset
 - Dataset description
   - Order ID: Unique identifier for each order.
@@ -26,12 +20,18 @@ The analysis focuses on identifying what drives revenue over time, how customer 
   - Order Time: Timestamp when the order was placed.
 - Data Source: [Kaggle](https://www.kaggle.com/datasets/haseebindata/restaurant-orders)
 
-## Tools Used
-- Microsoft Excel 2019
-- PivotTables
-- PivotCharts
-- Slicers
-- Calculated fields
+## Business Questions
+- How does revenue vary over time (monthly)?
+- Which meal category generates the most revenue?
+- Which time of day generates the highest revenue and order volume?
+- Are there returning customers and what is their impact on revenue?
+
+## Data Cleaning and Preparation
+The dataset was first reviewed for data quality issues, including missing values and duplicate records. No inconsistencies were found.
+
+To support business analysis, new features were created. A revenue column was calculated by multiplying price and quantity for each order. The original order timestamp was split into separate date and time columns, enabling trend and time-based analysis.
+
+Additionally, a time period feature (Morning, Afternoon, Evening, Night) was derived from the order time to analyze customer behavior and sales performance across different periods of the day.
 
 ## Key KPIs / Metrics
 To summarize restaurant performance and support the analysis, the following key metrics were calculated
@@ -59,3 +59,10 @@ To summarize restaurant performance and support the analysis, the following key 
 ### 5. Top Product Category by Revenue
 - Identifies the meal category that contributes the highest share of total revenue using pivot tables
 - Result: Main Dish category generates the highest revenue.
+
+## Tools Used
+- Microsoft Excel 2019
+- PivotTables
+- PivotCharts
+- Slicers
+- Calculated fields
