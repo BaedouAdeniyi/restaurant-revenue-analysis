@@ -71,17 +71,61 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
-## Insights and Key Findings
-### Insight 1: Revenue by Time of Day (Volume vs Value Effect)
+## Key Findings
+### Key Insight 1: Revenue Trend Over Time
+- Monthly revenue
+  - What was observed
+    - Increased from January to mid-March
+    - Declined sharply from mid-March to mid-April
+    - Remained relatively stable from April to June
+    - Increased again from June to July
+    - Dropped sharply in August (partial-month data)
+  - Why it happened
+    - The increase from January to mid-March aligns with 'rising order volume and increasing average order value'
+    - The decline from mid-March to mid-April corresponds with 'a noticeable drop in average order value and order volume did not rise enough to offset this drop'
+    - The June to July revenue increase was driven mainly by 'an increase in order volume and a small rise in average order value'
+    - The August decline is likely influenced by 'incomplete data, as the dataset ends mid-August'
+  - Why it matters
+    - Understanding whether revenue changes are driven by order volume or by how much customers spend helps identify where growth is coming from. In this case, revenue growth at different points came from different drivers — sometimes more customers, other times higher spending per order. This means future revenue growth will depend on knowing which lever to focus on at each period.
+
+### Key Insight 2: Revenue by Time of Day (Volume vs Value Effect)
 - Morning Revenue Performance
-    - What was observed
-        - Morning records the highest total revenue.
-        - Morning also has the highest order count.
-        - However, the average order value (AOV) in the morning is the lowest among all time periods.
-    - Why it happened
-        - Customers place many small orders in the morning rather than fewer large ones.
-        - Product mix analysis shows higher proportions of desserts and starters, which are typically lower-priced items.
-        - This indicates that morning customers are likely making quick, light purchases rather than full meals.
+  - What was observed
+      - Morning records the highest total revenue.
+      - Morning also has the highest order count.
+      - However, the average order value (AOV) in the morning is the lowest among all time periods.
+  - Why it happened
+      - Customers place many small orders in the morning rather than fewer large ones.
+      - Product mix analysis shows higher proportions of desserts and starters, which are typically lower-priced items.
+      - This indicates that morning customers are likely making quick, light purchases rather than full meals.
+    - Why it matters:
+        - Although mornings generate the most revenue, this is mainly driven by a high number of low-value orders. This suggests that revenue growth in the morning depends on volume rather than spending per customer, indicating an opportunity to increase average order value through product bundling or upselling.
+
+- Afternoon Revenue Performance
+  - What was observed
+    - The afternoon period has the highest average order value
+    - Afternoon does not have the highest order count
+    - Total revenue in the afternoon is driven more by order value than volume
+  - Why it happened
+    - Customers ordering in the afternoon are more likely to either order main dishes or combine starter + main
+    - Afternoon orders reflect full meals, not quick purchases
+    - Fewer customers order, but those who do spend more per order
+  - Why it matters
+    - The afternoon period generates higher value per customer, meaning revenue growth during this time depends on attracting more customers rather than increasing order size. This suggests that promotional efforts during the afternoon could be effective, as each additional customer has a higher revenue impact compared to other time periods.
+
+
+  - What was observed
+  - Why it happened
+  - Why it matters
+
+
+
+
+
+  - What was observed
+  - Why it happened
+  - Why it matters
+
 ## Tools Used
 - Microsoft Excel 2019
 - PivotTables
