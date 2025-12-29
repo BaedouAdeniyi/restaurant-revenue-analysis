@@ -60,6 +60,17 @@ To summarize restaurant performance and support the analysis, the following key 
 - Identifies the meal category that contributes the highest share of total revenue using pivot tables
 - Result: Main Dish category generates the highest revenue.
 
+## Exploartory Data Analysis (EDA)
+The exploratory data analysis focused on understanding revenue performance, customer ordering behavior, and product preferences across different time periods.
+
+Revenue patterns were examined by product category, time of day, and over time to identify key revenue drivers and trends.
+Order behavior was analyzed using order counts and order volume trends to understand customer activity levels.
+Average order value was explored across time periods and on a monthly basis to assess customer spending behavior.
+Product mix analysis was conducted to understand how customer preferences differ by time of day.
+Finally, customer repeat behavior was reviewed to provide context on customer retention.
+
+These analyses informed the selection of KPIs and visuals used in the final dashboard.
+
 ## Tools Used
 - Microsoft Excel 2019
 - PivotTables
