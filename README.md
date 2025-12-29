@@ -71,6 +71,17 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
+## Insights and Key Findings
+### Insight 1: Revenue by Time of Day (Volume vs Value Effect)
+- Morning Revenue Performance
+    - What was observed
+        - Morning records the highest total revenue.
+        - Morning also has the highest order count.
+        - However, the average order value (AOV) in the morning is the lowest among all time periods.
+    - Why it happened
+        - Customers place many small orders in the morning rather than fewer large ones.
+        - Product mix analysis shows higher proportions of desserts and starters, which are typically lower-priced items.
+        - This indicates that morning customers are likely making quick, light purchases rather than full meals.
 ## Tools Used
 - Microsoft Excel 2019
 - PivotTables
