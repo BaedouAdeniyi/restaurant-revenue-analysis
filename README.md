@@ -73,47 +73,31 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
 ## Key Findings
-### Key Insight 1:What Drives Revenue Changes (Order Count vs AOV)
-- Monthly revenue
-  - What was observed
-    - Increased from January to mid-March
-    - Declined sharply from mid-March to mid-April
-    - Remained relatively stable from April to June
-    - Increased again from June to July
-    - Dropped sharply in August (partial-month data)
-  - Why it happened
-    - The increase from January to mid-March aligns with 'rising order volume and increasing average order value'
-    - The decline from mid-March to mid-April corresponds with 'a noticeable drop in average order value and order volume did not rise enough to offset this drop'
-    - The June to July revenue increase was driven mainly by 'an increase in order volume and a small rise in average order value'
-    - The August decline is likely influenced by 'incomplete data, as the dataset ends mid-August'
-  - Why it matters
-    - Understanding whether revenue changes are driven by order volume or by how much customers spend helps identify where growth is coming from. In this case, revenue growth at different points came from different drivers — sometimes more customers, other times higher spending per order. This means future revenue growth will depend on knowing which lever to focus on at each period.
+### Key Insight 1:Revenue Performance Over Time
+Question we are answering
+- How has revenue performed over time, and what factors drive changes in revenue?
 
-### Key Insight 2: Revenue by Time of Day (Volume vs Value Effect)
-- Morning Revenue Performance
-  - What was observed
-      - Morning records the highest total revenue.
-      - Morning also has the highest order count.
-      - However, the average order value (AOV) in the morning is the lowest among all time periods.
-  - Why it happened
-      - Customers place many small orders in the morning rather than fewer large ones.
-      - Product mix analysis shows higher proportions of desserts and starters, which are typically lower-priced items.
-      - This indicates that morning customers are likely making quick, light purchases rather than full meals.
-    - Why it matters:
-        - Although mornings generate the most revenue, this is mainly driven by a high number of low-value orders. This suggests that revenue growth in the morning depends on volume rather than spending per customer, indicating an opportunity to increase average order value through product bundling or upselling.
+Revenue shows noticeable variation over time rather than steady growth. Some months record strong increases, while others experience slowdowns or dips, indicating that revenue is not evenly distributed across the year.
 
-- Afternoon Revenue Performance
-  - What was observed
-    - The afternoon period has the highest average order value
-    - Afternoon does not have the highest order count
-    - Total revenue in the afternoon is driven more by order value than volume
-  - Why it happened
-    - Customers ordering in the afternoon are more likely to either order main dishes or combine starter + main
-    - Afternoon orders reflect full meals, not quick purchases
-    - Fewer customers order, but those who do spend more per order
-  - Why it matters
-    - The afternoon period generates higher value per customer, meaning revenue growth during this time depends on attracting more customers rather than increasing order size. This suggests that promotional efforts during the afternoon could be effective, as each additional customer has a higher revenue impact compared to other time periods.
+A closer look shows that these changes are mainly driven by fluctuations in the number of orders rather than large changes in average order value. During high-revenue months, order volume increases significantly, while average order value remains relatively stable. In lower-revenue months, fewer orders are placed, which directly reduces total revenue.
 
+This suggests that revenue performance is largely volume-driven. Improving customer acquisition, repeat purchases, or order frequency would likely have a greater impact on revenue growth than focusing only on increasing prices or basket size.
+
+### Key Insight 2: Time-of-Day Performance
+Revenue is highest in the morning, followed by the afternoon, evening, and night. Morning revenue is nearly twice that of the afternoon, while afternoon and evening revenues are very similar. Evening revenue is almost 2.5 times higher than night revenue.
+
+To understand what drives this pattern, revenue was broken down into order volume and average revenue per order.
+
+Order count closely mirrors the revenue trend across time periods, indicating that higher morning revenue is primarily driven by a higher number of orders, not higher spend per order.
+
+In contrast, average revenue per order is highest in the afternoon, followed by evening and night, with morning having the lowest average order value. Afternoon average revenue is nearly twice that of the evening, suggesting that although fewer customers visit in the afternoon, each transaction generates more revenue.ther order main dishes or combine starter + main
+
+To explain this difference, a hypothesis was tested on product mix by time of day. The analysis showed that:
+
+- Starters and desserts are ordered more frequently in the morning
+- Main meals (often combined with starters) are ordered more frequently in the afternoon
+
+This explains the higher afternoon average order value. Main meals account for the largest share of revenue (≈42%), compared to starters (≈39%) and desserts (≈38%), confirming that meal composition (not customer volume) drives higher afternoon revenue per order.
 
   - What was observed
   - Why it happened
