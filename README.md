@@ -21,10 +21,11 @@ The analysis focuses on identifying what drives revenue over time, how customer 
 - Data Source: [Kaggle](https://www.kaggle.com/datasets/haseebindata/restaurant-orders)
 
 ## Business Questions
-- How does revenue vary over time (monthly)?
-- Which meal category generates the most revenue?
-- Which time of day generates the highest revenue and order volume?
-- Are there returning customers and what is their impact on revenue?
+- How has revenue performed over time, and what factors drive changes in revenue?
+- Which time of day generates the most revenue, and what drives performance across different periods of the day?
+- How does product mix vary by time of day, and how does this influence revenue patterns?
+- Do customers return, and what does the data suggest about customer retention behavior?
+- Are there identifiable low-performing periods or patterns that indicate opportunities for improvement or data limitations?
 
 ## Data Cleaning and Preparation
 The dataset was first reviewed for data quality issues, including missing values and duplicate records. No inconsistencies were found.
@@ -72,7 +73,7 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
 ## Key Findings
-### Key Insight 1: Revenue Trend Over Time
+### Key Insight 1:What Drives Revenue Changes (Order Count vs AOV)
 - Monthly revenue
   - What was observed
     - Increased from January to mid-March
