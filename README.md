@@ -73,7 +73,7 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
 ## Key Findings
-### Key Insight 1:Revenue Performance Over Time
+### Key Insight 1: Revenue Performance Over Time
 Question we are answering
 - How has revenue performed over time, and what factors drive changes in revenue?
 
@@ -84,6 +84,9 @@ A closer look shows that these changes are mainly driven by fluctuations in the 
 This suggests that revenue performance is largely volume-driven. Improving customer acquisition, repeat purchases, or order frequency would likely have a greater impact on revenue growth than focusing only on increasing prices or basket size.
 
 ### Key Insight 2: Time-of-Day Performance
+Question this insight answers
+- Which time of day generates the most revenue, and what drives performance differences across time periods?
+
 Revenue is highest in the morning, followed by the afternoon, evening, and night. Morning revenue is nearly twice that of the afternoon, while afternoon and evening revenues are very similar. Evening revenue is almost 2.5 times higher than night revenue.
 
 To understand what drives this pattern, revenue was broken down into order volume and average revenue per order.
@@ -99,17 +102,22 @@ To explain this difference, a hypothesis was tested on product mix by time of da
 
 This explains the higher afternoon average order value. Main meals account for the largest share of revenue (≈42%), compared to starters (≈39%) and desserts (≈38%), confirming that meal composition (not customer volume) drives higher afternoon revenue per order.
 
-  - What was observed
-  - Why it happened
-  - Why it matters
+### Key Insight 3: Product Performance
+Question this insight answers
+- Which products contribute the most to revenue, and how does product mix differ across time periods?
 
+Overall, main meals contribute the largest share of total revenue, confirming that they are the primary revenue driver, even though starters and desserts also contribute meaningfully.
 
+However, product contribution changes noticeably by time of day.
 
+In the morning, starters and desserts slightly lead over main meals, though main meals are still ordered at a meaningful level. This suggests that customers are more inclined toward lighter or quicker purchases in the morning, rather than full meals.
 
+In the afternoon, starters become the most ordered category, followed by main meals, while desserts are ordered less frequently. This combination indicates that customers are more likely to order fuller meals, often pairing a main meal with a starter, which aligns with the higher average order value observed during this period.
 
-  - What was observed
-  - Why it happened
-  - Why it matters
+In the evening, main meals take the lead, with desserts also forming a substantial share, while starters decline further. This points to a shift toward more complete dining compared to earlier in the day.
+
+At night, main meals dominate the product mix, with starters and desserts contributing at similar but lower levels. Despite this stronger preference for main meals, overall revenue remains lower due to reduced order volume during this period
+
 
 ## Tools Used
 - Microsoft Excel 2019
