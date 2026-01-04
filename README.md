@@ -1,4 +1,4 @@
-# Restuarant Revenue Analysis
+# Restuarant Revenue Analysis (on going)
 
 ## Project Overview
 This project analyzes sales data from a restaurant to understand revenue trends, customer behavior, and product performance. Using Excel, we explored the dataset, calculated key metrics, and created a dashboard to visualize insights. The goal is to show which products and time periods contribute most to revenue, and how customer orders vary throughout the day.
