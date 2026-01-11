@@ -2,11 +2,11 @@
 
 ## Table of Content
 - [Project Overview](#project-overview)
-- [Project Description](#project-desciption)
+- [Project Description](#project-description)
 - [Dataset](#dataset)
-- [Business Questions](#business-question)
+- [Business Questions](#business-questions)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Exploartory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Key KPIs / Metrics](#key-kpis-/-metrics)
 - [Dashbord](#dashboard)
 - [Key Findings](#key-findings)
