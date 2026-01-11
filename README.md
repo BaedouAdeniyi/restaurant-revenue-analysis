@@ -49,7 +49,7 @@ To support business analysis, new features were created. A revenue column was ca
 
 Additionally, a time period feature (Morning, Afternoon, Evening, Night) was derived from the order time to analyze customer behavior and sales performance across different periods of the day.
 
-## Exploartory Data Analysis
+## Exploratory Data Analysis
 The exploratory data analysis focused on understanding revenue performance, customer ordering behavior, and product preferences across different time periods.
 
 Revenue patterns were examined by product category, time of day, and over time to identify key revenue drivers and trends.
