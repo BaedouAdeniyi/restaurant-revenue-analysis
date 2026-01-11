@@ -1,4 +1,14 @@
-# Restuarant Revenue Analysis (on going)
+# Restuarant Revenue Analysis
+
+## Table of Content
+[Project Overview](#project-overview)
+[Project Description](#project-desciption)
+[Dataset](#dataset)
+[Business Questions](#business-question)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+[Exploartory Data Analysis (EDA)](#exploratory-data-analysis)
+[Key KPIs / Metrics](#key-kpis-metrics)
+[Key Findings](#key-findings)
 
 ## Project Overview
 This project analyzes sales data from a restaurant to understand revenue trends, customer behavior, and product performance. Using Excel, we explored the dataset, calculated key metrics, and created a dashboard to visualize insights. The goal is to show which products and time periods contribute most to revenue, and how customer orders vary throughout the day.
@@ -34,6 +44,18 @@ To support business analysis, new features were created. A revenue column was ca
 
 Additionally, a time period feature (Morning, Afternoon, Evening, Night) was derived from the order time to analyze customer behavior and sales performance across different periods of the day.
 
+## Exploartory Data Analysis (EDA)
+The exploratory data analysis focused on understanding revenue performance, customer ordering behavior, and product preferences across different time periods.
+
+Revenue patterns were examined by product category, time of day, and over time to identify key revenue drivers and trends.
+Order behavior was analyzed using order counts and order volume trends to understand customer activity levels.
+Average order value was explored across time periods and on a monthly basis to assess customer spending behavior.
+Product mix analysis was conducted to understand how customer preferences differ by time of day.
+Finally, customer repeat behavior was reviewed to provide context on customer retention.
+
+These analyses informed the selection of KPIs and visuals used in the final dashboard.
+
+
 ## Key KPIs / Metrics
 To summarize restaurant performance and support the analysis, the following key metrics were calculated
 ### 1. Total Revenue
@@ -61,16 +83,6 @@ To summarize restaurant performance and support the analysis, the following key 
 - Identifies the meal category that contributes the highest share of total revenue using pivot tables
 - Result: Main Dish category generates the highest revenue.
 
-## Exploartory Data Analysis (EDA)
-The exploratory data analysis focused on understanding revenue performance, customer ordering behavior, and product preferences across different time periods.
-
-Revenue patterns were examined by product category, time of day, and over time to identify key revenue drivers and trends.
-Order behavior was analyzed using order counts and order volume trends to understand customer activity levels.
-Average order value was explored across time periods and on a monthly basis to assess customer spending behavior.
-Product mix analysis was conducted to understand how customer preferences differ by time of day.
-Finally, customer repeat behavior was reviewed to provide context on customer retention.
-
-These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
 ## Key Findings
 ### Key Insight 1: Revenue Performance Over Time
@@ -118,6 +130,15 @@ In the evening, main meals take the lead, with desserts also forming a substanti
 
 At night, main meals dominate the product mix, with starters and desserts contributing at similar but lower levels. Despite this stronger preference for main meals, overall revenue remains lower due to reduced order volume during this period
 
+### Key Insight 4: Customer Retention Behaviour
+Question this insight answers
+- Do customers return and what does the data suggest about customer rentention
+
+The dataset shows that customer repeat purchases are extremely low. Out of approximately 500 total records, only three customers appear more than once, resulting in a returning customer rate of about 0.6%. This indicates that almost all customers in the dataset made only a single purchase.
+
+Because the number of returning customers is so small, the data does not support a deeper analysis of repeat purchase behavior or loyalty patterns. As a result, overall revenue and order trends in this dataset are driven almost entirely by one-time customers.
+
+### Key Insight 5:
 
 ## Tools Used
 - Microsoft Excel 2019
