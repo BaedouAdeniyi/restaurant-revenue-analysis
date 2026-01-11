@@ -7,7 +7,7 @@
 - [Business Questions](#business-questions)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Key KPIs / Metrics](#key-kpis-/-metrics)
+- [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
 - [Dashbord](#dashboard)
 - [Dashboard Overview](#dashboard-overview)
 - [Key Findings](#key-findings)
@@ -61,7 +61,7 @@ Finally, customer repeat behavior was reviewed to provide context on customer re
 These analyses informed the selection of KPIs and visuals used in the final dashboard.
 
 
-## Key KPIs / Metrics
+## Key Performance Indicators (KPIs)
 To summarize restaurant performance and support the analysis, the following key metrics were calculated
 ### 1. Total Revenue
 - The total amount generated from all completed orders within the dataset period.
