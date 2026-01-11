@@ -8,7 +8,11 @@
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploartory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Key KPIs / Metrics](#key-kpis-/-metrics)
+- [Dashbord](#dashboard)
 - [Key Findings](#key-findings)
+- [Recommendations](#recommendations)
+- [Summary](#summary)
+- [Tools Used](#tools-used)
 
 ## Project Overview
 This project analyzes sales data from a restaurant to understand revenue trends, customer behavior, and product performance. Using Excel, we explored the dataset, calculated key metrics, and created a dashboard to visualize insights. The goal is to show which products and time periods contribute most to revenue, and how customer orders vary throughout the day.
@@ -83,6 +87,8 @@ To summarize restaurant performance and support the analysis, the following key 
 - Identifies the meal category that contributes the highest share of total revenue using pivot tables
 - Result: Main Dish category generates the highest revenue.
 
+## Dashboard
+<img width="488" height="275" alt="Screenshot 2025-12-27 204658" src="https://github.com/user-attachments/assets/558c4b2b-5bec-43f5-83d1-822ff9a05481" />
 
 ## Key Findings
 ### Key Insight 1: Revenue Performance Over Time
@@ -138,7 +144,43 @@ The dataset shows that customer repeat purchases are extremely low. Out of appro
 
 Because the number of returning customers is so small, the data does not support a deeper analysis of repeat purchase behavior or loyalty patterns. As a result, overall revenue and order trends in this dataset are driven almost entirely by one-time customers.
 
-### Key Insight 5:
+### Key Insight 5: Low-Performing Periods & Data Limitations
+Qustion this insight answers
+- Are there identifiable low-performing periods or patterns that indicate opportunities for improvement or data limitations?
+
+The night period consistently records the lowest revenue and order volume compared to other times of day. In addition, revenue shows a sharp decline toward the final month (August) in the dataset, which appears inconsistent with earlier trends.
+
+However, further inspection suggests that these patterns are influenced by data coverage limitations rather than confirmed demand drops.
+
+## Recommendations
+1. Leverage Morning Traffic to Increase Order Value
+
+The morning period generates the highest order volume and total revenue, but it also records the lowest average order value, driven by a higher proportion of starter and dessert purchases compared to main meals. This suggests that while customer traffic is strong in the morning, individual spending per order is relatively low. Based on this, the business could explore bundle offers or subtle upselling strategies during the morning period, such as combining light items with main meals, to increase the value of each order without relying on additional foot traffic.
+
+2. Sustain and Protect Afternoon Performance
+
+Although the afternoon records fewer orders than the morning, it achieves the highest average order value, largely because customers tend to order main meals alongside starters. This indicates that customers in this period are more likely to sit down for a full meal. To sustain this performance, the business should ensure consistent menu availability, efficient service, and adequate staffing during the afternoon to avoid disruptions that could reduce order value or discourage customers.
+
+3. Approach Night Period Performance with Caution
+
+The night period shows the lowest revenue and order volume, even though the average order value is not the lowest among all time periods. This suggests that lower performance may be driven more by reduced customer traffic than by low spending behavior. Rather than making immediate operational changes, the business should consider collecting more data or testing targeted promotions to determine whether demand can be stimulated during this period.
+
+4. Improve Customer Retention Tracking
+
+The analysis shows that returning customers are almost non-existent, with only a very small percentage of customers appearing more than once in the dataset. This limits the ability to analyze repeat purchase behavior or long-term customer value. To address this, the business should consider implementing a more reliable customer identification system, such as loyalty programs or unique customer IDs, to better track repeat visits and support future retention analysis.
+
+5. Extend Data Collection for Stronger Insights
+
+Some observed trends, particularly toward the end of the dataset, are influenced by incomplete data, which limits the ability to assess seasonality or long-term patterns. Extending data collection over a longer and more complete time period would allow for more reliable trend analysis, clearer identification of seasonal effects, and stronger support for future business decisions. 
+
+## Summary
+This project analyzed restaurant sales data to understand how revenue performs over time, how customer behavior varies across different periods of the day, and what factors drive overall performance. Using Excel for data cleaning, exploration, and visualization, the analysis focused on identifying meaningful patterns rather than producing surface-level metrics.
+
+The findings show that revenue trends are primarily driven by changes in order volume rather than fluctuations in average order value. While the morning period generates the highest revenue due to high customer traffic, it also records the lowest average order value, driven by a higher proportion of starter and dessert purchases. In contrast, the afternoon period, despite having fewer orders, achieves the highest average order value as customers tend to order full meals.
+
+Customer retention was found to be extremely low, with very few repeat customers identified in the dataset, limiting deeper analysis of repeat purchase behavior. Additionally, incomplete data for certain periods highlights the importance of longer and more consistent data collection to support stronger conclusions.
+
+Overall, this project demonstrates a structured approach to exploratory data analysis, insight generation, and storytelling using real-world data. It reflects an end-to-end analytical workflow—from data preparation to business-focused insights—while emphasizing critical thinking, hypothesis testing, and clear communication.
 
 ## Tools Used
 - Microsoft Excel 2019
