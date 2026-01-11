@@ -6,9 +6,10 @@
 - [Dataset](#dataset)
 - [Business Questions](#business-questions)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Key KPIs / Metrics](#key-kpis-/-metrics)
 - [Dashbord](#dashboard)
+- [Dashboard Overview](#dashboard-overview)
 - [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
 - [Summary](#summary)
@@ -48,7 +49,7 @@ To support business analysis, new features were created. A revenue column was ca
 
 Additionally, a time period feature (Morning, Afternoon, Evening, Night) was derived from the order time to analyze customer behavior and sales performance across different periods of the day.
 
-## Exploartory Data Analysis (EDA)
+## Exploartory Data Analysis
 The exploratory data analysis focused on understanding revenue performance, customer ordering behavior, and product preferences across different time periods.
 
 Revenue patterns were examined by product category, time of day, and over time to identify key revenue drivers and trends.
@@ -89,6 +90,17 @@ To summarize restaurant performance and support the analysis, the following key 
 
 ## Dashboard
 <img width="488" height="275" alt="Screenshot 2025-12-27 204658" src="https://github.com/user-attachments/assets/558c4b2b-5bec-43f5-83d1-822ff9a05481" />
+
+### Dashboard Overview
+The dashboard provides a consolidated view of the restaurant’s revenue performance, customer behavior, and product mix across different time periods. It was designed to allow quick identification of key patterns while maintaining clarity and simplicity.
+
+The top section highlights key performance indicators (KPIs), including total revenue, total orders, average order value, and customer return rate, offering an immediate snapshot of overall business performance.
+
+The middle section focuses on revenue drivers, showing revenue by product category, revenue by time of day, and product mix across different periods. These visuals help explain why certain periods outperform others by linking revenue to both order volume and purchasing behavior.
+
+The bottom section presents time-based trends, including monthly revenue, order volume, and average order value. Together, these charts help track performance over time and identify periods of growth, stability, or decline.
+
+Interactive slicers allow users to filter the dashboard by category and time period, enabling deeper exploration without overwhelming the main view.
 
 ## Key Findings
 ### Key Insight 1: Revenue Performance Over Time
